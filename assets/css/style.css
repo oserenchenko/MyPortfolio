@@ -15,6 +15,7 @@ body {
   display: block;
   overflow: auto;
   background-color: #F2FDFF;
+  padding-bottom: 50px
 }
 
 .navbar {
@@ -36,16 +37,50 @@ body {
 }
 
 .home {
+  position: relative;
   margin-top: 50px;
-  height: 300px;
   width: 75%;
   color: black;
   background-color: white;
   border: 2px solid black;
+  margin-bottom: 60px;
 }
 
 .portfolio {
+  margin-top: 25px;
+}
+
+.contact {
   margin-top: 50px;
+  height: 500px;
+  width: 60%;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.connect {
+  margin: 0 auto;
+}
+
+.form {
+  height: 30px;
+}
+
+#message {
+  height: 50px;
+}
+
+.btn {
+  font-size: 15px;
+  border-color: black;
+  background-color: rgb(111, 142, 151);
+}
+
+.fab {
+  font-size: 50px;
+  letter-spacing: 10px;
 }
 
 #olgaMain {

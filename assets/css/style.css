@@ -1,7 +1,6 @@
 body {
   font-family: 'EB Garamond', serif;
   text-align: center;
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -15,7 +14,6 @@ body {
   display: block;
   overflow: auto;
   background-color: #F2FDFF;
-  padding-bottom: 50px
 }
 
 .navbar {
@@ -36,14 +34,15 @@ body {
   color: black !important;
 }
 
+
 .home {
-  position: relative;
   margin-top: 50px;
   width: 75%;
   color: black;
   background-color: white;
   border: 2px solid black;
   margin-bottom: 60px;
+  display: block;
 }
 
 .portfolio {
@@ -138,11 +137,11 @@ hr {
 }
 
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 50px;
+  height: 60px;
+  margin-top: 400px;
   background-color: rgb(111, 142, 151);
   border: 2px solid black;
 }

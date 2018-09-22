@@ -7,7 +7,7 @@ body {
   bottom: 0;
   margin: auto;
   background-image: url("../images/dandelion2.jpg");
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -18,7 +18,7 @@ body {
 
 .navbar {
   background-color: rgb(111, 142, 151) !important;
-  border: 2px solid black;
+  border: 3px solid #dbb4ab;
 }
 
 .header {
@@ -39,9 +39,9 @@ body {
   margin-top: 50px;
   width: 75%;
   color: black;
-  background-color: rgba(265, 265, 265, .8);
-  border: 2px solid black;
-  margin-bottom: 60px;
+  background-color: rgba(265, 265, 265, .6);
+  border: 2px solid #dbb4ab;
+  margin-bottom: 20px;
   display: block;
 }
 
@@ -62,7 +62,11 @@ body {
 }
 
 .aboutMenu {
-  font-size: 18px;
+  font-size: 20px;
+}
+
+a {
+  color: black;
 }
 
 .connect {
@@ -100,7 +104,7 @@ h1 {
 hr {
   border: 0;
   height: 3px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(219, 180, 171, 0), rgb(219, 180, 171, 0.75), rgba(219, 180, 171, 0));
 }
 
 #bio {
@@ -140,12 +144,37 @@ hr {
   color: rgba(229, 193, 0, 0.75);
 }
 
+.textTitle {
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.aboutText {
+  /* background-color: rgba(265, 265, 265, .6); */
+  /* border: 1px solid rgb(194, 190, 190); */
+  padding: 5px;
+  border: none;
+}
+
+.card {
+  background-color: rgba(265, 265, 265, .6);
+  /* border: 1px solid rgb(194, 190, 190); */
+  /* height: 230px; */
+}
+
+.aboutHr {
+  width: 700px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .footer {
   left: 0;
   bottom: 0;
   width: 100%;
   height: 60px;
-  margin-top: 400px;
+  margin-top: 50px;
   background-color: rgb(111, 142, 151);
   border: 2px solid black;
 }
@@ -155,4 +184,22 @@ hr {
   color: black;
   font-size: 15px;
   display: block;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(219, 180, 171);
+}
+
+a:active {
+  text-decoration: none;
 }

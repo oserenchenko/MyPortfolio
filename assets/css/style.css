@@ -151,16 +151,12 @@ hr {
 }
 
 .aboutText {
-  /* background-color: rgba(265, 265, 265, .6); */
-  /* border: 1px solid rgb(194, 190, 190); */
   padding: 5px;
   border: none;
 }
 
 .card {
   background-color: rgba(265, 265, 265, .6);
-  /* border: 1px solid rgb(194, 190, 190); */
-  /* height: 230px; */
 }
 
 .aboutHr {
@@ -203,3 +199,14 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
+.navbar-toggler:hover {
+  outline: 1px solid rgb(219, 180, 171);
+  box-shadow: none;
+}
+
+.navbar-toggler:link, .navbar-toggler:visited, .navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+

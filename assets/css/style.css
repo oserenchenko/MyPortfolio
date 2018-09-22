@@ -47,7 +47,7 @@ body {
 
 .portfolio {
   margin-top: 25px;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .contact {
@@ -58,7 +58,7 @@ body {
   background-color: white;
   border: 2px solid black;
   padding: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 150px;
 }
 
 .aboutMenu {
@@ -141,7 +141,7 @@ hr {
 .links {
   display: inline;
   font-size: 15px;
-  color: rgba(229, 193, 0, 0.75);
+  color: rgba(219, 180, 171, 0.75);
 }
 
 .textTitle {
@@ -172,7 +172,7 @@ hr {
   height: 60px;
   margin-top: 50px;
   background-color: rgb(111, 142, 151);
-  border: 2px solid black;
+  border: 3px solid rgb(219, 180, 171);
 }
 
 .footerText {

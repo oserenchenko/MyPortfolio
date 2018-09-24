@@ -34,7 +34,6 @@ body {
   color: black !important;
 }
 
-
 .home {
   margin-top: 50px;
   width: 75%;
@@ -87,6 +86,10 @@ a {
   background-color: rgb(111, 142, 151);
 }
 
+.contact-btn {
+  display: inline !important;
+}
+
 .fab {
   font-size: 50px;
   letter-spacing: 10px;
@@ -115,28 +118,6 @@ hr {
 margin: 0 auto;
 margin-top: 10px;
 margin-bottom: 10px;
-}
-
-.carousel-inner {
-  height: 545px;
-  background-color: rgba(10, 10, 10, 0.85);
-  border: 5px solid rgb(111, 142, 151);
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.d-block {
-  height: 500px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.carousel-caption {
-  height: 60px;
-  color: rgb(106, 163, 168);
-  background-color: rgba(10, 10, 10, 0.85);
-  border: 2px solid rgb(111, 142, 151);
-  padding: 0;
 }
 
 .imageTitle {

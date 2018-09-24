@@ -111,6 +111,12 @@ hr {
   font-size: 20px;
 }
 
+.portfolio-card {
+margin: 0 auto;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
 .carousel-inner {
   height: 545px;
   background-color: rgba(10, 10, 10, 0.85);

@@ -6,7 +6,7 @@ ______________
 ## Visit the deployed version of My Portfolio
 [My Portfolio](https://oserenchenko.github.io/MyPortfolio/)
 
-![homepage]()
+![portfolio](portfolio.gif)
 
 ______________
 ______________
